@@ -1,7 +1,7 @@
 package BASE.seminar.seminar4;
 
-import Collection.ConsoleProgram;
-import Collection.ListTest;
+import BASE.seminar.seminar4.Collection.ConsoleProgram;
+import BASE.seminar.seminar4.Collection.ListTest;
 
 public class Main {
     public static void main(String[] args) {

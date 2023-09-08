@@ -1,6 +1,6 @@
 package BASE.seminar.seminar3;
 
-import Solution.Task4;
+import BASE.seminar.seminar3.Solution.Task4;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -15,7 +15,7 @@ public class Main {
 //        System.out.println(dict);
 //        Task2.planetsFreq();
 //        Task3.ObjList();
-        Task4.task4();
+          Task4.task4();
 //
 //        System.out.println("Hello, World!");
     }

@@ -1,7 +1,7 @@
 package BASE.homework.hw4;
 
-import Solution.ConsoleProgramHW;
-import Solution.Task2;
+import BASE.homework.hw4.Solution.ConsoleProgramHW;
+import BASE.homework.hw4.Solution.Task2;
 
 public class Main {
     public static void main(String[] args) {

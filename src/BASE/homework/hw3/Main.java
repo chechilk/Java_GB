@@ -1,8 +1,8 @@
 package BASE.homework.hw3;
 
-import Solution.Task1;
-import Solution.Task2;
-import Solution.Task3;
+import BASE.homework.hw3.Solution.Task1;
+import BASE.homework.hw3.Solution.Task2;
+import BASE.homework.hw3.Solution.Task3;
 
 public class Main {
     public static void main(String[] args)
