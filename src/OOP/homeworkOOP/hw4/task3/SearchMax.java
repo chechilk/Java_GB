@@ -1,6 +1,6 @@
 package OOP.homeworkOOP.hw4.task3;
 
-public class SearchMax<T> implements Comparable {
+public class SearchMax<T> implements Comparable<T> {
 
     private T number;
 
@@ -9,7 +9,7 @@ public class SearchMax<T> implements Comparable {
     }
 
     @Override
-    public Object getMax() {
-        return null;
+    public int compareTo(T o) {
+        return 0;
     }
 }
