@@ -1,5 +1,5 @@
 package OOP.seminarOOP.seminar5.calculate;
-// связывает Model и View
+// связывает UserModel и UserView
 public class Controller {
     private Model model; // объект Модели
     private View view; // объект Вида
