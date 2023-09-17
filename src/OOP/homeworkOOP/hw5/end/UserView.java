@@ -3,9 +3,21 @@ package OOP.homeworkOOP.hw5.end;
 import java.util.Scanner;
 
 public class UserView {
-    Scanner scanner;
+    Scanner scanner = new Scanner(System.in);
 
-    public UserView(Scanner scanner) {
+    UserView(Scanner scanner) {
         this.scanner = scanner;
+    }
+    public void showMessage(String text){
+        System.out.println(text);
+    }
+
+    public String getInfoString(String text){
+        System.out.println(text);
+        return scanner.next();
+    }
+
+    public Integer getInfoInt(){
+        return scanner.nextInt();
     }
 }

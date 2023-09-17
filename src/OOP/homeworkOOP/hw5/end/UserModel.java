@@ -5,7 +5,7 @@ public class UserModel {
     private String loginUser;
     private String passwordUser;
 
-    public UserModel(String nameUser, String loginUser, String passwordUser) {
+    UserModel(String nameUser, String loginUser, String passwordUser) {
         this.nameUser = nameUser;
         this.loginUser = loginUser;
         this.passwordUser = passwordUser;
@@ -27,8 +27,8 @@ public class UserModel {
         this.loginUser = loginUser;
     }
 
-    public String getPasswordUser() {
-        return passwordUser;
+    public boolean checkPasswordUser(String password) {
+        return this.passwordUser.equals(password);
     }
 
     public void setPasswordUser(String passwordUser) {
