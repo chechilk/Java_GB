@@ -1,4 +1,4 @@
-package OOP.homeworkOOP.hw5.end;
+package OOP.homeworkOOP.hw5;
 
 import java.util.Scanner;
 

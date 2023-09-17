@@ -1,4 +1,4 @@
-package OOP.homeworkOOP.hw5.end;
+package OOP.homeworkOOP.hw5;
 
 public interface Message {
     String ENTER_LOGIN = "Введите логин: ";

@@ -1,4 +1,4 @@
-package OOP.homeworkOOP.hw5.end;
+package OOP.homeworkOOP.hw5;
 
 public class UserModel {
     private String nameUser;
