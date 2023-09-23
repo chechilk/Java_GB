@@ -1,5 +1,5 @@
 ### Код взят из других групп =)
-### 1) Переписать код в соответствии с Single Responsibility Principle:
+### task1) Переписать код в соответствии с Single Responsibility Principle:
 
 ```
 public class Employee {
@@ -24,7 +24,7 @@ public class Employee {
     }
 }
 ```
-### 2) Переписать код SpeedCalculation в соответствии с Open-Closed Principle:
+### task2) Переписать код SpeedCalculation в соответствии с Open-Closed Principle:
 
 ```
 public class SpeedCalculation {
@@ -50,7 +50,7 @@ class Vehicle {
         return this.maxSpeed;
     }
 ```
-### 3) Переписать код в соответствии с Interface Segregation Principle:
+### task3) Переписать код в соответствии с Interface Segregation Principle:
 
 ```
 interface Shape {
@@ -95,7 +95,7 @@ class Cube implements Shape {
     }
 }
 ```
-### 4) Переписать код в соответствии с Liskov Substitution Principle:
+### task4) Переписать код в соответствии с Liskov Substitution Principle:
 
 ```
 public class Rectangle {
@@ -129,7 +129,7 @@ public class Square extends Rectangle {
     }
 }
 ```
-### 5) Переписать код в соответствии с Dependency Inversion Principle:
+### task5) Переписать код в соответствии с Dependency Inversion Principle:
 ```
 public class Car {
     private PetrolEngine engine;
