@@ -1,4 +1,4 @@
-package exceptions.homework1;
+package exceptions.homework2;
 
 /**
  * try {

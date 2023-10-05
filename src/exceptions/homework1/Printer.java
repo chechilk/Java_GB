@@ -1,4 +1,4 @@
-package exceptions.seminar1;
+package exceptions.homework1;
 
 class Answer {
     public static void arrayOutOfBoundsException() {
